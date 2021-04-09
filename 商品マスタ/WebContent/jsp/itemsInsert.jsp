@@ -24,6 +24,5 @@
 			<td><input type="text" name="item_price" /></td>
 	</table>
 
-
 </body>
 </html>
