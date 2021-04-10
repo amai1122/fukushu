@@ -1,0 +1,4 @@
+CREATE TABLE items(no INTEGER AUTO_INCREMENT,
+					item_id VARCHAR(5) NOT NULL PRIMARY KEY,
+					item_name VARCHAR(255) NOT NULL,
+					item_price INTEGER NOT NULL);
