@@ -28,4 +28,5 @@ public class NewItems extends HttpServlet {
         rd.forward(request, response);
 	}
 
+
 }

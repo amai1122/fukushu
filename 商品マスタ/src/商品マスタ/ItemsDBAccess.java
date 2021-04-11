@@ -60,6 +60,7 @@ public class ItemsDBAccess {
 		return list;
 	}
 
+
 	//------------------------------------------------
 
 	protected void itemsDBAccessInsert(String item_id, String item_name, String item_price) throws Exception {

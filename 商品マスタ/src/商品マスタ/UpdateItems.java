@@ -48,6 +48,7 @@ public class UpdateItems extends HttpServlet {
 		// パスをセット
 		String path = NEXTPAGE_PATH;
 
+
 		// itemsInsert.jspに遷移
 		RequestDispatcher rd = request.getRequestDispatcher(path);
 		rd.forward(request, response);
