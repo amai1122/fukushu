@@ -27,4 +27,45 @@
     <url-pattern>/servlet/tom.HelloServlet</url-pattern>
   </servlet-mapping>
 
+    <servlet>
+    <servlet-name>NewItems</servlet-name>
+    <servlet-class>tom.NewItems</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>NewItems</servlet-name>
+    <url-pattern>/servlet/tom.NewItems</url-pattern>
+  </servlet-mapping>
+
+      <servlet>
+    <servlet-name>DeleteItems</servlet-name>
+    <servlet-class>tom.DeleteItems</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>DeleteItems</servlet-name>
+    <url-pattern>/servlet/tom.DeleteItems</url-pattern>
+  </servlet-mapping>
+
+        <servlet>
+    <servlet-name>InsertItems</servlet-name>
+    <servlet-class>tom.InsertItems</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>InsertItems</servlet-name>
+    <url-pattern>/servlet/tom.InsertItems</url-pattern>
+  </servlet-mapping>
+
+        <servlet>
+    <servlet-name>UpdateItems</servlet-name>
+    <servlet-class>tom.UpdateItems</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>UpdateItems</servlet-name>
+    <url-pattern>/servlet/tom.UpdateItems</url-pattern>
+  </servlet-mapping>
+
+
 </web-app>
