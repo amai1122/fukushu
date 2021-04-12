@@ -45,6 +45,7 @@ public class ItemsDBAccess {
 				list.add(bn);
 			}
 
+
 		} finally {
 			if (rs != null) {
 				rs.close();
