@@ -37,6 +37,7 @@ public class DeleteItems extends HttpServlet {
 		RequestDispatcher rd = request.getRequestDispatcher(path);
 		rd.forward(request, response);
 
+
 	}
 
 }
