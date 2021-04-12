@@ -30,6 +30,7 @@ public class DeleteItems extends HttpServlet {
 			e.printStackTrace();
 		}
 
+
 		// パスをセット
 		String path = NEXTPAGE_PATH;
 
