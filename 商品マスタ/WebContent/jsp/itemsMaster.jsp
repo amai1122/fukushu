@@ -15,6 +15,7 @@
 			if (errorList != null) {
 			%>
 
+
 		<table border="1">
 			<tr>
 				<th>Ｎｏ．</th>
