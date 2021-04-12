@@ -46,6 +46,7 @@ public class ItemsDBAccess {
 			}
 
 
+
 		} finally {
 			if (rs != null) {
 				rs.close();
